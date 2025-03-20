@@ -21,8 +21,8 @@ def verificar_porta(ip, porta):
         sock.close()
 
 # Solicitar o IP e a porta ao usuário
-ip = input("Digite o IP do servidor: ")
-porta = int(input("Digite o número da porta a ser verificada: "))
+ip = input("IP: ")
+porta = int(input("Porta: "))
 
 # Verificar se a porta está aberta ou fechada
 if verificar_porta(ip, porta):
